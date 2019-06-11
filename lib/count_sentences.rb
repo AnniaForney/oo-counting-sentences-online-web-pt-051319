@@ -18,7 +18,7 @@ class String
 
 
     array = self.split(/[.!?]/)
-    array.delete 
+    array.delete("")
     #binding.pry
     array.count
   end
