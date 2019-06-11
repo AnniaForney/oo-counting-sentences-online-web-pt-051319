@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     binding.pry 
-    #array = self.split(".").count
+    array = self.split(".").count
   end
 end
